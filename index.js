@@ -23,8 +23,8 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",RandomImageSource2)
 
 if(randomNumber>randomNumber2){
-    document.querySelector("h1").innerHTML= "Player 1 wins"
+    document.querySelector("h1").innerHTML= "Player 1 wins";
 }    else if(randomNumber2>randomNumber){
-        document.querySelectorAll("h1").innerHTML = "Player 2 wins!!!!"
+        document.querySelectorAll("h1").innerHTML = "Player 2 wins!!!!";
     }
-else{document.querySelector("h1").innerHTML="Draw!!"}
+else{document.querySelector("h1").innerHTML="Draw!!";}
